@@ -10,7 +10,7 @@ import subprocess
 import base64
 import struct
 
-OPENSSL_PATH="/home/pierky/openssl-1.0.2a/apps/openssl"
+OPENSSL_PATH="openssl"
 
 LOGS = [
     { "Name": "Aviator",
