@@ -1,0 +1,5 @@
+# Signed Certificate Timestamp TLS extension verifier
+
+A small python script to receive and verify Certificate Transparency SCT via TLS Extension using openssl.
+
+More info at http://blog.pierky.com/certificate-transparency-manually-verify-sct-with-openssl/
