@@ -19,18 +19,42 @@ LOGS = [
     "YP8bQFAHDG1xhtolSY1l4QgNRzRrvSe8liE+NPWHdjGxfx3JhTsN9x8/6Q==\n"
     "-----END PUBLIC KEY-----",
     "LogID": "aPaY+B9kgr46jO65KB1M/HFRXWeT1ETRCmesu09P+8Q=" },
+
     { "Name": "Digicert Log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEAkbFvhu7gkAW6MHSrBlpE1n4+HCF\n"
     "RkC5OLAjgqhkTH+/uzSfSl8ois8ZxAD2NgaTZe1M9akhYlrYkes4JECs6A==\n"
     "-----END PUBLIC KEY-----",
     "LogID": "VhQGmi/XwuzT9eG9RLI+x0Z2ubyZEVzA75SYVdaJ0N0=" },
+
     { "Name": "Pilot",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEfahLEimAoz2t01p3uMziiLOl/fHT\n"
     "DM0YDOhBRuiBARsV4UvxG2LdNgoIGLrtCzWE0J5APC2em4JlvR8EEEFMoA==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=" }
+    "LogID": "pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=" },
+
+    { "Name": "Rocketeer",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIFsYyDzBi7MxCAC/oJBXK7dHjG+1\n"
+    "aLCOkHjpoHPqTyghLpzA9BYbqvnV16mAw04vUjyYASVGJCUoI3ctBcJAeg==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/cs=" },
+
+    { "Name": "Izenpe",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ2Q5DC3cUBj4IQCiDu0s6j51up+T\n"
+    "ZAkAEcQRF6tczw90rLWXkJMAW7jr9yc92bIKgV8vDXU4lDeZHvYHduDuvg==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "dGG0oJz7PUHXUVlXWy52SaRFqNJ3CbDMVkpkgrfrQaM=" },
+
+    { "Name": "Certly",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECyPLhWKYYUgEc+tUXfPQB4wtGS2M\n"
+    "NvXrjwFCCnyYJifBtd2Sk7Cu+Js9DNhMTh35FftHaHu6ZrclnNBKwmbbSA==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "zbUXm3/BwEb+6jETaj+PAC5hgvr4iW/syLL1tatgSQA=" }
+
     ]
 
 if len( sys.argv ) <= 1:
@@ -39,6 +63,10 @@ if len( sys.argv ) <= 1:
     print( "" )
     print( "Example:" )
     print( "  ./sct-verify sni.velox.ch" )
+    print( "" )
+    print( "Known hosts implementing SCT TLS Extensions:" )
+    print( " - sni.velox.ch" )
+    print( " - ritter.vg" )
     quit()
 
 HostName = sys.argv[1]
