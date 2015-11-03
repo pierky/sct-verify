@@ -9,8 +9,12 @@ import sys
 import subprocess
 import base64
 import struct
+import os
 
-OPENSSL_PATH="openssl"
+try:
+  OPENSSL_PATH = os.environ["OPENSSL_PATH"]
+except:
+  OPENSSL_PATH = "openssl"
 
 LOGS = [
     { "Name": "Aviator",
@@ -65,6 +69,7 @@ if len( sys.argv ) <= 1:
     print( "  ./sct-verify sni.velox.ch" )
     print( "" )
     print( "Known hosts implementing SCT TLS Extensions:" )
+    print( " - blog.pierky.com" )
     print( " - sni.velox.ch" )
     print( " - ritter.vg" )
     quit()
