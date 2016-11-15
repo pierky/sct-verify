@@ -83,7 +83,33 @@ LOGS = [
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1+wvK3VPN7yjQ7qLZWY8fWrlDCqm\n"
     "wuUm/gx9TnzwOrzi0yLcAdAfbkOcXG6DrZwV9sSNYLUdu6NiaX7rp6oBmw==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "nk/3PcPOIgtpIXyJnkaAdqv414Y21cz8haMadWKLqIs=" }
+    "LogID": "nk/3PcPOIgtpIXyJnkaAdqv414Y21cz8haMadWKLqIs=" },
+
+    { "Name": "Symantec Vega",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE6pWeAv/u8TNtS4e8zf0ZF2L/lNPQ\n"
+    "WQc/Ai0ckP7IRzA78d0NuBEMXR2G3avTK0Zm+25ltzv9WWis36b4ztIYTQ==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "vHjh38X2PGhGSTNNoQ+hXwl5aSAJwIG08/aRfz7ZuKU=" },
+
+    { "Name": "CNNIC",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7UIYZopMgTTJWPp2IXh\n"
+    "huAf1l6a9zM7gBvntj5fLaFm9pVKhKYhVnno94XuXeN8EsDgiSIJIj66FpUGvai5\n"
+    "samyetZhLocRuXhAiXXbDNyQ4KR51tVebtEq2zT0mT9liTtGwiksFQccyUsaVPhs\n"
+    "Hq9gJ2IKZdWauVA2Fm5x9h8B9xKn/L/2IaMpkIYtd967TNTP/dLPgixN1PLCLayp\n"
+    "vurDGSVDsuWabA3FHKWL9z8wr7kBkbdpEhLlg2H+NAC+9nGKx+tQkuhZ/hWR65aX\n"
+    "+CNUPy2OB9/u2rNPyDydb988LENXoUcMkQT0dU3aiYGkFAY0uZjD2vH97TM20xYt\n"
+    "NQIDAQAB\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "pXesnO11SN2PAltnokEInfhuD0duwgPC7L7bGF8oJjg=" },
+
+    { "Name": "StartSSL",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESPNZ8/YFGNPbsu1Gfs/IEbVXsajW\n"
+    "TOaft0oaFIZDqUiwy1o/PErK38SCFFWa+PeOQFXc9NKv6nV0+05/YIYuUQ==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "NLtq1sPfnAPuqKSZ/3iRSGydXlysktAfe/0bzhnbSO8=" },
 
     ]
 
@@ -140,6 +166,10 @@ EECertDER = base64.b64decode( EECert )
 
 Data = base64.b64decode( ServerInfo18 )
 DataLen = len(Data)
+
+if DataLen == 0:
+    print("No TLS extensions found.")
+    quit()
 
 def ToHex( v ):
     if type(v) is int or type(v) is long:
@@ -257,7 +287,7 @@ def ReadSCT( SCT ):
     else:
         print( "OpenSSL error - Exit code %d" % OpenSSL_exitcode )
         print( OpenSSL_stderr )
- 
+
 Offset = 0
 Offset, TLS_ExtensionType, TLS_ExtensionLen = Read( Data, Offset, "!HH" )
 Offset, SignedCertificateTimestampListLen = Read( Data, Offset, "!H" )
