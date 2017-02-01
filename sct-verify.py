@@ -73,10 +73,10 @@ LOGS = [
 
     { "Name": "WoSign log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
-    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1+wvK3VPN7yjQ7qLZWY8fWrlDCqm\n"
-    "wuUm/gx9TnzwOrzi0yLcAdAfbkOcXG6DrZwV9sSNYLUdu6NiaX7rp6oBmw==\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzBGIey1my66PTTBmJxklIpMhRrQv\n"
+    "AdPG+SvVyLpzmwai8IoCnNBrRhgwhbrpJIsO0VtwKAx+8TpFf1rzgkJgMQ==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "nk/3PcPOIgtpIXyJnkaAdqv414Y21cz8haMadWKLqIs=" },
+    "LogID": "QbLcLonmPOSvG6e7Kb9oxt7m+fHMBH4w3/rjs7olkmM=" },
 
     { "Name": "Symantec Vega",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
