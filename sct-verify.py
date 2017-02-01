@@ -52,6 +52,20 @@ LOGS = [
     "-----END PUBLIC KEY-----",
     "LogID": "7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/cs=" },
 
+    { "Name": "Skydiver",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEmyGDvYXsRJsNyXSrYc9DjHsIa2x\n"
+    "zb4UR7ZxVoV6mrc9iZB7xjI6+NrOiwH+P/xxkRmOFG6Jel20q37hTh58rA==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "u9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e0YU=" },
+
+    { "Name": "Comodo Dodo",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELPXCMfVjQ2oWSgrewu4fIW4Sfh3lco90CwKZ061p\n"
+    "vAI1eflh6c8ACE90pKM0muBDHCN+j0HV7scco4KKQPqq4A==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "23b9raxl59CVCIhuIVm9i5A1L1/q0+PcXiLrNQrMe5g=" },
+
     { "Name": "Symantec log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEluqsHEYMG1XcDfy1lCdGV0JwOmkY\n"
