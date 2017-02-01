@@ -17,7 +17,7 @@ except:
   OPENSSL_PATH = "openssl"
 
 LOGS = [
-    { "Name": "Aviator",
+    { "Name": "Aviator - FROZEN",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1/TMabLkDpCjiupacAlP7xNi0I1J\n"
     "YP8bQFAHDG1xhtolSY1l4QgNRzRrvSe8liE+NPWHdjGxfx3JhTsN9x8/6Q==\n"
@@ -38,6 +38,13 @@ LOGS = [
     "-----END PUBLIC KEY-----",
     "LogID": "pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=" },
 
+    { "Name": "Icarus",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETtK8v7MICve56qTHHDhhBOuV4IlU\n"
+    "aESxZryCfk9QbG9co/CqPvTsgPDbCpp6oFtyAHwlDhnvr7JijXRD9Cb2FA==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "KTxRllTIOWW6qlD8WAfUt2+/WHopctykwwz05UVH9Hg=" },
+
     { "Name": "Rocketeer",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIFsYyDzBi7MxCAC/oJBXK7dHjG+1\n"
@@ -51,14 +58,7 @@ LOGS = [
     "ZAkAEcQRF6tczw90rLWXkJMAW7jr9yc92bIKgV8vDXU4lDeZHvYHduDuvg==\n"
     "-----END PUBLIC KEY-----",
     "LogID": "dGG0oJz7PUHXUVlXWy52SaRFqNJ3CbDMVkpkgrfrQaM=" },
-
-    { "Name": "Certly",
-    "Key": "-----BEGIN PUBLIC KEY-----\n"
-    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECyPLhWKYYUgEc+tUXfPQB4wtGS2M\n"
-    "NvXrjwFCCnyYJifBtd2Sk7Cu+Js9DNhMTh35FftHaHu6ZrclnNBKwmbbSA==\n"
-    "-----END PUBLIC KEY-----",
-    "LogID": "zbUXm3/BwEb+6jETaj+PAC5hgvr4iW/syLL1tatgSQA=" },
-
+  
     { "Name": "Symantec log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEluqsHEYMG1XcDfy1lCdGV0JwOmkY\n"
