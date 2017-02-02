@@ -17,7 +17,7 @@ except:
   OPENSSL_PATH = "openssl"
 
 LOGS = [
-    { "Name": "Aviator",
+    { "Name": "Aviator - FROZEN",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1/TMabLkDpCjiupacAlP7xNi0I1J\n"
     "YP8bQFAHDG1xhtolSY1l4QgNRzRrvSe8liE+NPWHdjGxfx3JhTsN9x8/6Q==\n"
@@ -38,6 +38,13 @@ LOGS = [
     "-----END PUBLIC KEY-----",
     "LogID": "pLkJkLQYWBSHuxOizGdwCjw1mAT5G9+443fNDsgN3BA=" },
 
+    { "Name": "Icarus",
+    "Key": "-----BEGIN PUBLIC KEY-----\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAETtK8v7MICve56qTHHDhhBOuV4IlU\n"
+    "aESxZryCfk9QbG9co/CqPvTsgPDbCpp6oFtyAHwlDhnvr7JijXRD9Cb2FA==\n"
+    "-----END PUBLIC KEY-----",
+    "LogID": "KTxRllTIOWW6qlD8WAfUt2+/WHopctykwwz05UVH9Hg=" },
+
     { "Name": "Rocketeer",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
     "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIFsYyDzBi7MxCAC/oJBXK7dHjG+1\n"
@@ -45,19 +52,19 @@ LOGS = [
     "-----END PUBLIC KEY-----",
     "LogID": "7ku9t3XOYLrhQmkfq+GeZqMPfl+wctiDAMR7iXqo/cs=" },
 
-    { "Name": "Izenpe",
+    { "Name": "Skydiver",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
-    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEJ2Q5DC3cUBj4IQCiDu0s6j51up+T\n"
-    "ZAkAEcQRF6tczw90rLWXkJMAW7jr9yc92bIKgV8vDXU4lDeZHvYHduDuvg==\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEmyGDvYXsRJsNyXSrYc9DjHsIa2x\n"
+    "zb4UR7ZxVoV6mrc9iZB7xjI6+NrOiwH+P/xxkRmOFG6Jel20q37hTh58rA==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "dGG0oJz7PUHXUVlXWy52SaRFqNJ3CbDMVkpkgrfrQaM=" },
+    "LogID": "u9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e0YU=" },
 
-    { "Name": "Certly",
+    { "Name": "Comodo Dodo",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
-    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECyPLhWKYYUgEc+tUXfPQB4wtGS2M\n"
-    "NvXrjwFCCnyYJifBtd2Sk7Cu+Js9DNhMTh35FftHaHu6ZrclnNBKwmbbSA==\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAELPXCMfVjQ2oWSgrewu4fIW4Sfh3lco90CwKZ061p\n"
+    "vAI1eflh6c8ACE90pKM0muBDHCN+j0HV7scco4KKQPqq4A==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "zbUXm3/BwEb+6jETaj+PAC5hgvr4iW/syLL1tatgSQA=" },
+    "LogID": "23b9raxl59CVCIhuIVm9i5A1L1/q0+PcXiLrNQrMe5g=" },
 
     { "Name": "Symantec log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
@@ -80,10 +87,10 @@ LOGS = [
 
     { "Name": "WoSign log",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
-    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1+wvK3VPN7yjQ7qLZWY8fWrlDCqm\n"
-    "wuUm/gx9TnzwOrzi0yLcAdAfbkOcXG6DrZwV9sSNYLUdu6NiaX7rp6oBmw==\n"
+    "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEzBGIey1my66PTTBmJxklIpMhRrQv\n"
+    "AdPG+SvVyLpzmwai8IoCnNBrRhgwhbrpJIsO0VtwKAx+8TpFf1rzgkJgMQ==\n"
     "-----END PUBLIC KEY-----",
-    "LogID": "nk/3PcPOIgtpIXyJnkaAdqv414Y21cz8haMadWKLqIs=" },
+    "LogID": "QbLcLonmPOSvG6e7Kb9oxt7m+fHMBH4w3/rjs7olkmM=" },
 
     { "Name": "Symantec Vega",
     "Key": "-----BEGIN PUBLIC KEY-----\n"
